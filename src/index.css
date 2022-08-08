@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.railway{
+  overflow-x: hidden;
+}
+
+.front{
+  position: relative;
+}
+.book{
+  position: absolute;
+  margin-top: -900px;
+}
+.bookpnr{
+  position: absolute;
+  margin-top: -500px;
+}
+.card{
+  background-color: aqua;
+  box-shadow: 4px 4px 4px 4px white;
+}
+.mainnav ul li:hover{
+  background-color: aqua;
+  color: aquamarine;
+}
+li{
+  color: black;
+}
+
+.trainnav:hover{
+  background-color: thistle;
+  border-radius: 40px;
 }
