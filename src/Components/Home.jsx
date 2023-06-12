@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div>
          <Routes>
-             <Route exact path='/' element={<Front/>}/ >
+             <Route exact path='/' element={<Front/>} />
              <Route exact path='/login' element={<Login/>} />
              <Route exact path='/reg' element={<Registration/>} />
              <Route exact path='/con' element={<Contact_us/>} />
